@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    height: 40em;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+section {
+    height: 40em;
+    padding: 7em;
+    border-bottom: 1px solid #ccc;
+}
+
+.section-01 {
+    background-color: blueviolet;
+}
+
+.section-02 {
+    background-color: red;
+}
+
+.section-03 {
+    background-color: green;
+}
+
+.section-04 {
+    background-color: yellow;
+}
+
+.section-05 {
+    background-color: brown;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
