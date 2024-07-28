@@ -19,7 +19,7 @@ header h1 {
 
 section {
     height: 40em;
-    padding: 7em;
+    padding: 3em;
     border-bottom: 1px solid #ccc;
     color: white;
 }
@@ -33,7 +33,7 @@ h2 {
     font-size: 2em;
 }
 
-.section-02 {
+#section-02 {
     background-color: red;
 }
 
