@@ -25,7 +25,7 @@ header h1 {
 
 section {
     height: 40em;
-    padding: 3em;
+    padding: 2em;
     border-bottom: 1px solid #ccc;
     color: white;
 }
@@ -36,7 +36,7 @@ section {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 #section-02 {
