@@ -4,23 +4,29 @@ body {
     padding: 0;
 }
 
+nav button {
+    background-color: #9d9d93;
+}
+
+nav button:hover {
+    background-color: #474843;
+}
+
 
 header {
     background-image: url('./img/wallpaper-creative.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    padding: 1em 0;
     height: 40em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 1em;
+    margin: 0;
 }
 
 header h1 {
+    padding: 2em;
     font-size: 2em;
     color: black;
+    text-align: left;
 }
 
 section {
@@ -31,7 +37,7 @@ section {
 }
 
 .section-01 {
-    background-color: blueviolet;
+    background-color: #474843;
     font-size: larger;
 }
 
@@ -40,23 +46,25 @@ h2 {
 }
 
 #section-02 {
-    background-color: red;
+    background-color: #f8edd1;
+    color: black;
 }
 
 .section-03 {
-    background-color: green;
+    background-color: #f8edd1;
 }
 
 .section-04 {
-    background-color: rgb(90, 90, 47);
+    background-color: #d88a8a;
+    color: black;
 }
 
 .section-05 {
-    background-color: brown;
+    background-color: #f8edd1;
 }
 
 footer {
-    background-color: #333;
+    background-color: #474843;
     color: white;
     text-align: center;
     padding: 1em 0;
