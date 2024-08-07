@@ -37,26 +37,31 @@ section {
 }
 
 .section-01 {
-    background-color: #474843;
+    background-color: #d88a8a;
     font-size: larger;
 }
 
 #section-02 {
-    background-color: #f8edd1;
+    background-color: #474843;
     color: black;
 }
 
 .section-03 {
-    background-color: #d88a8a;
+    background-color: #f8edd1;
 }
 
 .section-04 {
-    background-color: #474843;
+    background-color: #d88a8a;
     color: black;
 }
 
 .section-05 {
     background-color: #f8edd1;
+}
+
+.tarjetas {
+    background-color: yellow;
+    color: white;
 }
 
 footer {
