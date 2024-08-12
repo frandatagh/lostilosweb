@@ -27,6 +27,10 @@ header h1 {
     color: black;
 }
 
+i {
+    padding: 5px;
+}
+
 section {
 
     padding: 2em;
