@@ -23,13 +23,12 @@ header {
 }
 
 header h1 {
-    padding: 2em;
     font-size: 2em;
     color: black;
 }
 
 section {
-    height: 40em;
+
     padding: 2em;
     border-bottom: 1px solid #ccc;
     color: white;
@@ -54,8 +53,19 @@ section {
     color: black;
 }
 
-.section-05 {
+#btenviar {
+    background-color: #474843;
+    padding: 5px;
+    border-color: #f8edd1;
+    color: white;
+
+}
+
+#btenviar:hover {
     background-color: #f8edd1;
+    padding: 5px;
+    border-color: white;
+    color: black;
 }
 
 
