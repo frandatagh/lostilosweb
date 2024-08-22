@@ -49,7 +49,19 @@ section {
 }
 
 .section-03 {
+    color: black;
     background-color: #f8edd1;
+}
+
+.section-03 i {
+    margin: 28px;
+    font-size: 6em;
+    color: #474843;
+    font-weight: 25rem;
+}
+
+.section-03 li {
+    line-height: 18px;
 }
 
 .section-04 {

@@ -8,6 +8,9 @@ module.exports = {
         'custom-green': '#10B981',
         'custom-red': '#EF4444',
         'custom-yellow': '#F59E0B',
+      },
+      listStyleImage: {
+        checkmark: 'url("/img/checkmark.png")',
       }
     },
   },
