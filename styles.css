@@ -57,6 +57,7 @@ section {
 .section-03 {
     color: #343532;
     background-color: #f8edd1;
+    list-style: inside;
 }
 
 .section-03 i {
