@@ -38,8 +38,6 @@ i {
 }
 
 section {
-
-    padding: 2em;
     border-bottom: 1px solid #ccc;
     color: white;
 }
@@ -60,10 +58,16 @@ section {
     list-style: inside;
 }
 
+#info-call {
+    width: 100%;
+    background-color: #474843;
+    color: white;
+    padding: 20px;
+}
+
 .section-03 i {
     margin: 28px;
-    font-size: 6em;
-    color: #474843;
+    font-size: 5em;
     font-weight: 25rem;
 }
 
