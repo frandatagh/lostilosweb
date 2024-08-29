@@ -60,9 +60,16 @@ section {
 
 #info-call {
     width: 100%;
-    background-color: #474843;
-    color: white;
+    background-color: #f8edd1;
+    color: black;
     padding: 20px;
+}
+
+#info-call i {
+    padding: 5px;
+    font-size: 4em;
+
+    color: #474843;
 }
 
 .section-03 i {
