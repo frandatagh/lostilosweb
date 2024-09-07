@@ -55,7 +55,7 @@ section {
 .section-03 {
     color: #343532;
     background-color: #f8edd1;
-    list-style: inside;
+    list-style: georgian;
 }
 
 #info-call {
@@ -78,9 +78,7 @@ section {
     font-weight: 25rem;
 }
 
-.section-03 li {
-    line-height: 18px;
-}
+.section-03 li {}
 
 .section-04 {
     background-color: #d88a8a;
