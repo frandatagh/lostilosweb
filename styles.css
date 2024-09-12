@@ -54,7 +54,10 @@ section {
 
 .section-03 {
     color: #343532;
-    background-color: #f8edd1;
+    background-image: url(./img/fondo-info.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: repeat;
     list-style: georgian;
 }
 
