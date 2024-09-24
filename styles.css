@@ -65,13 +65,13 @@ section {
     width: 100%;
     background-color: #f8edd1;
     color: black;
-    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 #info-call i {
     padding: 5px;
     font-size: 4em;
-
     color: #474843;
 }
 
@@ -81,7 +81,6 @@ section {
     font-weight: 25rem;
 }
 
-.section-03 li {}
 
 .section-04 {
     background-color: #d88a8a;
