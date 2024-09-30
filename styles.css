@@ -112,3 +112,9 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+#map-ubicacion {
+    min-width: 350px;
+    height: 225px;
+    margin: 0 auto;
+}
