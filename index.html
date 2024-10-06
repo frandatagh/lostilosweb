@@ -24,22 +24,25 @@
 
         <ul class="md:flex md:items-center z[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
+                <a href="#section-header" class="text-xl hover:text-cyan-500 duration-500">HOME</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">QUIENES SOMOS</a>
+                <a href="#section-01" class="text-xl hover:text-cyan-500 duration-500">QUIENES SOMOS</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">PROFESIONALES</a>
+                <a href="#section-02" class="text-xl hover:text-cyan-500 duration-500">PROFESIONALES</a>
             </li>
             <li class="mx-4 my-6 md:my-0">
-                <a href="#" class="text-xl hover:text-cyan-500 duration-500">CONTACTO</a>
+                <a href="#section-04" class="text-xl hover:text-cyan-500 duration-500">PREGUNTAS FRECUENTES</a>
+            </li>
+            <li class="mx-4 my-6 md:my-0">
+                <a href="#info-call" class="text-xl hover:text-cyan-500 duration-500">CONTACTO</a>
             </li>
 
             
         </ul>
     </nav>
-    <header >
+    <header id="section-header">
         <h1 class="pt-16 font-bold">Los Tilos</h1>
         <h2 class="text-xl mt-2 font-semibold">Protege tu salud mental</h2>
         <div class="mt-80 pt-20">
@@ -54,7 +57,7 @@
         </div>
     </header>
     
-    <section class="section-01 py-20">
+    <section class="section-01 py-20" id="section-01">
         <div class="p-8">
             <h2 class="text-3xl md:px-44 md:pt-10">QUIENES SOMOS</h2>
             <br/>
@@ -404,7 +407,7 @@
         <a href="https://maps.app.goo.gl/Xftcg8v7YKbSEPm37" target="_blank"><p class="p-2 underline">Ubicación</p></a>
     </div>
     
-    <section class="section-04">
+    <section class="section-04" id="section-04">
         <div class="py-14 px-4 md:px-14">
             <h2 class="p-4 text-3xl text-center">PREGUNTAS FRECUENTES</h2>
             <div class="m-2 p-2 md:mx-48">
@@ -425,10 +428,11 @@
             <div class="m-2 flex justify-evenly">
                 <ul class="pl-2 flex flex-col items-start lg:pr-10">
                     <li class="p-2 underline">Navegacion</li>
-                    <li class="list-disc">Home</li>
-                    <li class="list-disc">Quienes Somos</li>
-                    <li class="list-disc">Profesionales</li>
-                    <li class="list-disc">Contacto</li>
+                    <a href="#section-header"><li class="list-disc">Home</li></a>
+                    <a href="#section-01"><li class="list-disc">Quienes Somos</li></a>
+                    <a href="#section-02"><li class="list-disc">Profesionales</li></a>
+                    <a href="#section-04"><li class="list-disc">Preguntas Frecuentes</li></a>
+                    <a href="#info-call"><li class="list-disc">Contacto</li></a>
                 </ul>
                 <div class="content-center">
                     <div class="p-2 flex flex-wrap justify-center">
