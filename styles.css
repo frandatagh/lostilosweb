@@ -1,3 +1,12 @@
+/* 
+PALETA DE COLORES:
+#FF8A8A
+#F4DEB3
+#F0EAAC
+#CCE0AC
+
+*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -60,6 +69,7 @@ i {
 
 #ir-arriba-boton:hover {
     cursor: pointer;
+    color: gray;
     transform: scale(1.1);
 }
 
