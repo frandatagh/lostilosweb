@@ -41,6 +41,38 @@ i {
     font-size: 1em;
 }
 
+#ir-arriba-boton {
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 25px;
+    width: 54px;
+    height: 54px;
+    color: blue;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+#ir-arriba-boton i {
+    font-size: 3em;
+}
+
+#ir-arriba-boton:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ocultar {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mostrar {
+    opacity: 1;
+    visibility: visible;
+}
+
 section {
     border-bottom: 1px solid #ccc;
     color: white;
